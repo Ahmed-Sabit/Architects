@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+    max-width: 1920px;
+}
 .work-sans-font {
   font-family: "Work Sans", sans-serif;
   font-optical-sizing: auto;
@@ -9,22 +14,85 @@
 .navbar {
     display: flex;
     justify-content: space-between;
-    margin: 40px 150px 75px 150px;
+    margin: 5px 10px 25px 10px;
 }
 ul {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding: 0;
     gap: 50px;
 }
 .navbar ul li a {
     text-decoration: none;
     color: #424242;
+    font-weight: 500;
 }
 .nav-title {
     color: #131313;
-    
+    font-size: 2.8em;
+    margin: 20px 0;
 }
 li {
     list-style: none;
+}
+.banner-title {
+    color: #131313;
+    font-size: 64px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 0px;
+}
+.banner-des {
+    color: #727272;
+    line-height: 1.26;
+    font-size: 16px;
+    text-align: center;
+    margin: 16px 0px 30px;
+}
+.banner-img img {
+    width: 100%;
+}
+.og-btn {
+    color: #FFFFFF;
+    background-color: #FF900E;
+    border-radius: 8px;
+    line-height: auto;
+    font-weight: 600;
+    font-size: 20px;
+    border: none;
+    padding: 21px 24px 20px 25px;
+}
+.front-btn {
+    display: block;
+    margin: 0px auto 40px;
+}
+header {
+    max-width: 82vw;
+    padding: 2vh 9vw 5vh 9vw;
+    background-color: rgba(255, 144, 14, 0.1)
+    /* margin: 0 auto 30px auto; */
+}
+
+/* RESPONSIVE MEDIA QUERY */
+@media screen and (max-width: 576px){
+    .navbar {
+        display: flex;
+        flex-direction: column;
+    }
+    .nav-title {
+        text-align: center;
+        font-size: 2.5em;
+    }
+    .navbar ul li a {
+        font-size: 1.1em;
+    }
+    ul {
+        display: flex;
+        gap: 15px;
+        text-align: center;
+    }
+    .banner-title {
+        font-size: 2em;
+    }
 }
