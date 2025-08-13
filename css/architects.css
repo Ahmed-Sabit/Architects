@@ -158,6 +158,49 @@ main {
     flex-direction: column;
     gap: 20px;
 }
+/* facts-section*/
+.facts-section .facts-container img {
+    width: 2.8vw;
+}
+.facts-container {
+    display: flex;
+    gap: 100px;
+}
+.facts-section-title {
+    font-size: 2.8em;
+    color: #131313;
+    font-weight: bold;
+    margin: 130px auto 24px auto;
+}
+.facts-section-para {
+    color: #727272;
+    line-height: 1.26;
+    margin-bottom: 100px;
+    text-align: left;
+}
+.box {
+    padding: 6vh 3vw 8vh 3vw;
+    text-align: center;
+    border-radius: 8px;
+    border: 1px solid #FF900E;
+    margin-bottom: 180px;
+}
+.stats {
+    color: #424242;
+    font-size: 2.6em;
+    line-height: auto;
+    font-weight: 600;
+}
+.stats-para {
+    color: #727272;
+    font-size: 1.25em;
+    line-height: auto;
+    font-weight: 600;
+}
+
+
+
+
 
 /* RESPONSIVE MEDIA QUERY */
 @media screen and (max-width: 576px){
